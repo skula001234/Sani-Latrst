@@ -551,7 +551,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
+        photo="https://files.catbox.moe/8e2qqw.jpg",
         caption=caption
     )
 
@@ -622,7 +622,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://files.catbox.moe/8e2qqw.jpg",
         caption=caption
       ),
       reply_markup=keyboard
